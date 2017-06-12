@@ -1,6 +1,6 @@
 ---
 title: Hello World!
-date: 2017-04-22 00:14:26 +05:30
+date: '2017-04-21T18:44:26.000+00:00'
 categories:
 - general
 - announcements
