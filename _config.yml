@@ -1,28 +1,32 @@
----
+# Site Info
 title: Cybeadon
 timezone: Asia/Kolkata
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+
+# Defaults
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    comments: true
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      comments: true
+
 description: ''
 baseurl: ''
 url: https://cybeadon.com
 email: cybeadon@gmail.com
+
+# Site Settings
 permalink: "/blog/:title/"
+
+# Pagination
 paginate: 5
 paginate_path: "/blog/page/:num/"
-logo: ''
+
+# SEO Info
+logo: ""
+
 author:
   name: Sasivarnan R
   email: sasivarnan36@gmail.com
@@ -31,31 +35,44 @@ author:
   instagram: iamsasivarnan
   github: sasivarnan
   linkedin: sasivarnan
+
 twitter:
   username: cybeadon
+
 social:
   name: Cybeadon
   links:
-  - https://twitter.com/cybeadon
-  - https://www.facebook.com/cybeadon
-  - https://github.com/cybeadon
+    - https://twitter.com/cybeadon
+    - https://www.facebook.com/cybeadon
+    - https://github.com/cybeadon
+
 webmaster_verifications:
   google: jdWkuLCHRn4NeeWcUfnAdh4cGHzoTQdeV5SdTqfkTZo
+  bing: 104F1E1382974986F126C69F9EAC5E1C
+
+# Anaytics
 analytics:
   google: UA-41971011-2
+
+# Comments
 comments:
   disqus: cybeadon
+
+# RSS Feed
 feed:
-  path: "/rss/index.xml"
+  path: /rss/index.xml
+
+# Build settings
 markdown: kramdown
+timezone: Asia/Kolkata
 gems:
-- jekyll-feed
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-gist
-- jekyll-archives
-- jemoji
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-archives
+  - jemoji
 exclude:
-- Gemfile
-- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
