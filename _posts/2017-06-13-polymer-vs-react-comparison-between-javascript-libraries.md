@@ -3,6 +3,7 @@ layout: post
 title: Polymer vs React - Comparison between JavaScript Libraries
 categories: Web, JavaScript
 tags: Polymer, React, JavaScript, HTML, CSS, Web Components
+date: '2017-06-13T00:00:00.000+00:00'
 ---
 
 With recent advancements in technologies, the web no longer serves just static content. Thanks to JavaScript, websites became web apps providing dynamic content. There are lots of JavaScript libraries and frameworks available in the market for building dynamic web apps. 
