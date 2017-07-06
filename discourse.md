@@ -1,9 +1,13 @@
 ---
 title: Discourse
-layout: default
+layout: page
 ---
 
-<script type="text/javascript">
+Test page for embedding discourse.
+
+<div id='discourse-comments'></div>
+
+<script> 
     DiscourseEmbed = { discourseUrl: 'https://blog.oecloud.io/', discourseEmbedUrl: 'https://cybeadon.com/discourse/' }; 
     (function(){
         var d = document.createElement('script'); 
